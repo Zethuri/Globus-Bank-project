@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+
+.headerSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.headerHolder{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.nav-Holder{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+.button{
+    background-color:orange;
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+
+.section-backgroundImage{
+    background-image: url("./image/1891\ 2.png" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit-Holder{
+    display: flex;
+    width: 90%;
+    height: 500px;
+}
+
+.benefit-one{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.benefit-two{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imageholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    img{
+        height: 90px;
+        width: 60%;
+        object-fit: cover;
+    }
+
+    h3{
+        font-weight: 900;
+    }
+}
+
+.lastest-section{
+    background-color: #d9d9d9;
+    height: 250px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2{
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+
+.button{
+    background-color: #eb2232;
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-holder{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+
+    a{
+        text-decoration: none;
+    }
+}

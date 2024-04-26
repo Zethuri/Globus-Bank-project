@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+
+.contact-hero{
+    background-color: #eb7979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+
+    h2{
+        color: white;
+        font-size: 40px;
+        font-weight: 900;
+    }
+}
+
+.contact-section{
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.contact-first{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-second{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-holder{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.info-details{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.input{
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color:white;
+    width: 250px;
+    font-size: 17px;
+    padding-left: 10px;
+
+}
+
+.textarea{
+    background-color: black;
+    width: 100%;
+    font-size: 17px;
+    padding-left: 10px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.lastest-section{
+    background-color: #d9d9d9;
+    height: 250px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2{
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+
+.button{
+    background-color: #eb2232;
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-holder{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+
+    a{
+        text-decoration: none;
+    }
+}
