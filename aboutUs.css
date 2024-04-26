@@ -28,6 +28,8 @@
 }
 
 
+
+
 .button{
     background-color:orange;
     width: 130px;
@@ -38,10 +40,10 @@
 }
 
 .aboutUs{
-    background-image: url(./young-man-woman-dressed-yellow\ 3.png);
+    background-image: url(./image/portrait-thoughtful-girl-white-background\ 1\ \(1\).png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 400px;
+    height: 300px;
     align-items: center;
     justify-content: center;
 
@@ -51,52 +53,173 @@
         align-items: center;
         font-weight: 500;
         font-size: 50px;
-        color: black;
-        height: 350px;
+        color: white;
+        height: 250px;
     }
 }
 
 .firstSection{
     /* justify-content: center; */
-    height: 80%;
-    width: 45%;
+    height:500px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
+    align-items: center;
 }
 
 .first-section{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+
 }
 
-/* .sectionImage{
+.sectionImage{
     display: flex;
+    height:90%;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-} */
+    width: 50%;
+    gap: 20px;
+}
 
 .imageOne{
-    height: 320px;
-    position: relative;
-    left: 70px;
-    top: 50px;
+    height: 90%;
 }
 
 .imageTwo{
-    height: 60%;
-    position: absolute;
-    left: 20%;
-    top: 90%;
-}
+    height: 90%;
+} 
 
 .textSection{
-    justify-content: center;
     gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    gap: 20px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vision{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.core-values{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    height: 290px;
+    width: 75%;
+    align-items: center;
+    border-radius: 50%;
+
+    p{
+        font-size: 15px;
+        width: 60%;
+    }
+}
+
+.lastest-section{
+    background-color: #d9d9d9;
+    margin-top: 20px;
+    height: 250px;
+    display: flex;
+    gap: 50px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    h2{
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+
+.button{
+    background-color: #eb2232;
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-holder{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-0{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-1{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    
+    a{
+        text-decoration: none;
+    }
+}
+
+.footer-nav-holder{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
 }

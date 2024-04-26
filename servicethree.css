@@ -38,10 +38,10 @@
 }
 
 .section-backgroundImage{
-    background-image: url(./image/elegant-attractive-muslim-woman-using-mobile-laptop-searching-online-shopping-information-living-room-home-portrait-happy-woman-purchasing-product-via-online-shopping-pay-using-credit-card\ 5.png);
+    background-image: url(./image/woman\ with\ laptop.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 300px;
     align-items: center;
     justify-content: center;
 }
@@ -90,8 +90,8 @@
 .secondImage{
     height: 60%;
     position: absolute;
-    left: 30%;
-    top: 102%;
+    left: 32%;
+    top: 90%;
 }
 
 .lastest-section{
@@ -99,6 +99,7 @@
     height: 250px;
     display: flex;
     gap: 50px;
+    margin-top: 5%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
