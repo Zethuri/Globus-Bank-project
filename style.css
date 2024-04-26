@@ -121,17 +121,25 @@
 
 .services{
     display: flex;
-    background-color:yellow;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 3px;
-    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
+.service-one{
+ width: 25%;
+}
+.service-two{
+ width: 25%;
+}
 .service-three{
     /* height: 100px; */
+ width: 25%;
+
 
     .imageThree{
         object-fit: cover;
@@ -264,6 +272,7 @@ button:hover{
 
 .lastest-section{
     background-color: #d9d9d9;
+    margin-top: 20px;
     height: 250px;
     display: flex;
     gap: 50px;
