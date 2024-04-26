@@ -316,6 +316,13 @@ button:hover{
     justify-content: space-between;
 }
 
+.footer-0{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 .footer-1{
     width: 20%;
     display: flex;
@@ -331,6 +338,12 @@ button:hover{
     a{
         text-decoration: none;
     }
+}
+
+.footer-nav-holder{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* MEDIA QUERY STARTS */
@@ -401,6 +414,91 @@ button:hover{
     }
     .service-three{
         width: 90%;
+    }
+
+    .blogSection{
+        display: flex;
+        gap: 20px;
+    }
+    .blog-header{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+
+        p{
+            text-align: center;
+        }
+    }
+
+    .blog-section{
+        display: flex;
+        gap: 20px;
+    }
+
+    .blogOne{
+        width: 90%;
+        display: flex;
+        gap: 20px;
+    }
+    .blogTwo{
+        width: 90%;
+           display: flex;
+        gap: 20px;
+    }
+    .blogThree{
+        width: 90%;
+           display: flex;
+        gap: 20px;
+    }
+    .blogFour{
+        width: 90%;
+           display: flex;
+        gap: 20px;
+    }
+
+    .lastest-section{
+        height: 300px;
+        h2{
+            font-size: 45px;
+            text-align: center;
+        }
+    }
+
+    .footer{
+        height: fit-content;
+    }
+
+    .footer-holder{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 10px;
+    }
+
+ 
+    .footer-0{
+        width: 90%;
+        p{
+            line-height: 25px;
+        }
+    }
+
+    .footer-nav-holder{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer-1{
+        width: 40%;
+    }
+    .footer-2{
+        width: 100%;
+
     }
 }
 
