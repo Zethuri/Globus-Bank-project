@@ -92,6 +92,7 @@
 .secondImage{
     height: 60%;
     position: absolute;
+    object-fit: contain;
     left: 30%;
     top: 102%;
 }
@@ -156,5 +157,7 @@ button:hover{
 
     a{
         text-decoration: none;
+        color: black;
+
     }
 }

@@ -215,6 +215,8 @@ button:hover{
     
     a{
         text-decoration: none;
+        color: black;
+
     }
 }
 
@@ -223,3 +225,89 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
+
+/* MEDIA QUERY STARTS */
+
+@media screen and (max-width: 500px){
+    .nav-Holder{
+        display: none;
+    }
+
+    .aboutUs{
+        height: 100%;
+    }
+
+
+    .textSection{
+        color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15%;
+        height: 20%;
+
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .sectionImage{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .imageOne{
+        padding-left: 20%;
+    }
+
+    .imageTwo{
+        padding-right: 20px;
+    }
+
+
+    .lastest-section{
+        height: 300px;
+        h2{
+            font-size: 45px;
+            text-align: center;
+        }
+    }
+
+    .footer{
+        height: fit-content;
+    }
+
+    .footer-holder{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 10px;
+    }
+
+ 
+    .footer-0{
+        width: 90%;
+        p{
+            line-height: 25px;
+        }
+    }
+
+    .footer-nav-holder{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer-1{
+        width: 40%;
+    }
+    .footer-2{
+        width: 100%;
+
+    }
+}
+
+/* MEDIA QUERY ENDS */
