@@ -91,6 +91,7 @@
     }
 }
 
+
 .lastest-section{
     background-color: #d9d9d9;
     height: 250px;
@@ -154,4 +155,91 @@ button:hover{
         color: black;
 
     }
+}
+
+@media screen and (max-width:500px)  {
+    .nav-Holder{
+        display: none;
+
+    }
+
+    .benefit-Holder{
+        height: 50%;
+    
+    }
+
+
+    .benefit-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        height: 20%;
+    }
+
+    .benefit-two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 40px;
+        margin-bottom: 700px;
+        width: 50%;
+
+        .imageholder{
+            display: flex;
+            align-items: center;
+            height: 15%;
+        }
+    }
+
+    .lastest-section{
+        height: 300px;
+        h2{
+            font-size: 45px;
+            text-align: center;
+        }
+    }
+
+    .footer{
+        height: fit-content;
+    }
+
+    .footer-holder{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 10px;
+    }
+
+ 
+    .footer-0{
+        width: 90%;
+        p{
+            line-height: 25px;
+        }
+    }
+
+    .footer-nav-holder{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer-1{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            font-size: 20px;
+        }
+    }
+    .footer-2{
+        width: 100%;
+
+    }
+    
 }
