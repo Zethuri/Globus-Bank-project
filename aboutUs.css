@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    /* overflow-x: hidden ; */
 }
 
 .headerSection{
@@ -102,6 +103,7 @@
     width: 45%;
     height: 90%;
     gap: 20px;
+
 }
 
 .second-section{
@@ -236,35 +238,99 @@ button:hover{
     .aboutUs{
         height: 100%;
     }
+    
+    
+        .firstSection{
+        height: fit-content;
+        }
 
+        .first-section{
+            display: flex;
+            flex-direction: column ;
+        }
+
+        .sectionImage{
+            width: 100%;
+        }
 
     .textSection{
-        color: red;
+        color: black;
         display: flex;
-        justify-content: center;
         align-items: center;
-        padding-left: 15%;
-        height: 20%;
+        width: 100%;
+        gap: 10px;
+
 
         p{
             font-size: 14px;
+            text-align: center;
         }
     }
 
     .sectionImage{
         display: flex;
-        justify-content: center;
-        gap: 10px;
+        height:90%;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
-
+    
     .imageOne{
-        padding-left: 20%;
+        height: 80%;
+        width: 50%;
+        position: relative;
+        right:20%;
     }
-
+    
     .imageTwo{
-        padding-right: 20px;
+        height: 60%;
+        width: 50%;
+        right: 2%;
+        position: absolute;
+    } 
+
+    .secondSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .second-section{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     }
 
+    .paragraph{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    .vision{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mission{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .core-values{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
 
     .lastest-section{
         height: 300px;
