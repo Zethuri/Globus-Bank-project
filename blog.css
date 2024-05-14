@@ -156,3 +156,51 @@ button:hover{
 
     }
 }
+
+/* MEDIA QUERY STARTS HERE */
+
+@media screen and (max-width:500px) {
+    /* *{
+        background-color: blue;
+    } */
+
+    .headerHolder{
+        display: flex;
+        /* justify-content: center; */
+        gap: 20px;
+
+    }
+
+    .nav-Holder{
+        display: none;
+    }
+
+    .section-backgroundImage{
+        background-size: contain;
+        height: 600px;
+
+        h2{
+            margin-bottom: 120%;
+            margin-right: 60%;
+            color: #000;
+            font-size: 35px;
+        }
+    }
+
+
+    .first-section{
+        background-color: yellow;
+        width: 100%;
+        margin-bottom: 180%;
+    }
+
+    .section-One{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
