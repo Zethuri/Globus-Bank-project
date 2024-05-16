@@ -24,7 +24,7 @@
     flex-direction: column;
     gap: 30px;
     height: 400px;
-    width: 65%;
+    width: 60%;
     padding-bottom: 50px;
 }
 
@@ -71,4 +71,53 @@ p{
     a{
         color: #000;
     }
+}
+
+.registerSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    padding-bottom: 120px;
+}
+
+
+.form-details{
+    background-color: whitesmoke;
+    /* background-image: url("./image/bank\ image.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    margin-top: 30px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 650px;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.register-form{
+    background-image: url(./image/bank\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 70%;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.userDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
